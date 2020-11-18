@@ -8,7 +8,7 @@ public class ConsonentsOrNot {
 			Scanner scan = new Scanner(System.in);
 			System.out.print("Enter string :");
 			String str= scan.nextLine();
-			int vcount = 0, ccount = 0;
+			int vcount = 0, ccount = 0;           
 			
 	        str = str.toLowerCase();
 	        for(int i = 0; i < str.length(); i++) { 
